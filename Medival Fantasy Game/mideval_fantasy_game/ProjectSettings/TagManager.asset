@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Mushroom
+  - Flower
+  - Fruit
+  - Wild_Mushroom
+  - Mushruns
+  - Poppy
+  - Purple_Flower
+  - Mushrun_Happy
+  - Mushrun_Angry
+  - Player2
+  - One_Player_Button
+  - Two_Player_Button
+  - Play_Button
+  - Player_Menu_Buttons
+  - Loading_Image
+  - Background_Image
+  - Start_Data
+  - Speech_Box
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Invesible_To_First_Person_Camera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

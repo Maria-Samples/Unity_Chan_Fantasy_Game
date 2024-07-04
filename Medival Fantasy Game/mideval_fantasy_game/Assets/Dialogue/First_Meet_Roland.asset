@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e16f2ae131897a438f78ab36c50bacb, type: 3}
+  m_Name: First_Meet_Roland
+  m_EditorClassIdentifier: 
+  Sections:
+  - SectionIndex: 1
+    Dialogue:
+    - Oh, whatever shall i do?
+    - Oh, Hi unity.
+    - Listen, i am in dire need of assistance.
+    End_Dialogue: 0
+    Dialogue_Branches:
+      Question: Could you please help me unity?
+      Answers:
+      - Answer: Sure, no problem!
+        Next_Section_Index: 2
+      - Answer: I have other things to do.
+        Next_Section_Index: 3
+      - Answer: That depends. What do you need?
+        Next_Section_Index: 4
+  - SectionIndex: 2
+    Dialogue:
+    - Oh, Thank you Unity. Your a life saver.
+    - I need you to get kill 5 angry mushruns and bring them back.
+    - Thanks again.
+    End_Dialogue: 1
+    Dialogue_Branches:
+      Question: 
+      Answers: []
+  - SectionIndex: 3
+    Dialogue:
+    - Oh, all right. That's understandable.
+    - What to do? What to do?
+    End_Dialogue: 1
+    Dialogue_Branches:
+      Question: 
+      Answers: []
+  - SectionIndex: 4
+    Dialogue:
+    - I need you to bring me 5 angry mushruns.
+    End_Dialogue: 0
+    Dialogue_Branches:
+      Question: Would you be willing to do it?
+      Answers:
+      - Answer: Sure, no thing.
+        Next_Section_Index: 5
+      - Answer: No, sorry.
+        Next_Section_Index: 3
+  - SectionIndex: 5
+    Dialogue:
+    - Thank you, Unity your a life saver.
+    End_Dialogue: 1
+    Dialogue_Branches:
+      Question: 
+      Answers: []
